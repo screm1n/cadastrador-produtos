@@ -1,4 +1,3 @@
-/* Centraliza todo o conteúdo da página */
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -18,7 +17,6 @@ body {
   text-align: center;
 }
 
-/* Estiliza o formulário de cadastro */
 form {
   display: flex;
   flex-direction: column;
@@ -65,7 +63,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Estiliza a tabela de produtos */
 table {
   width: 100%;
   border-collapse: collapse;
