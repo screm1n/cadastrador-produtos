@@ -1,4 +1,3 @@
-
 function getStoredProducts() {
   const products = localStorage.getItem('products');
   return products ? JSON.parse(products) : [];
@@ -13,7 +12,7 @@ function renderProductList() {
 
   products.forEach(product => {
     const row = document.createElement('tr');
-    row.innerHTML = `<td>${product.name}</td><td>${product.price.toFixed(2)}</td>`;
+    row.innerHTML = `<td>${product.name} (${product.description})</td><td>R$ ${product.price.toFixed(2)}</td>`;
     tbody.appendChild(row);
   });
 }
