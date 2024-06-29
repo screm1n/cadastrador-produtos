@@ -78,3 +78,14 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
+
+footer {
+  font-size: 0.9em;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
